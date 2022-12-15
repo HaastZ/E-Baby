@@ -1,0 +1,17 @@
+.navbar.bs-navbar {
+    padding-top: 0.5rem;
+}
+
+.corNavbar {
+    background-color: rgb(66, 200, 245);
+    height: 50px;
+    
+}
+
+.navbar.navbar-expand-lg.bg-light {
+    padding: 0;
+}
+
+.nav-link.active.passarEmCima:hover {
+    color: rgb(255, 255, 255)
+}

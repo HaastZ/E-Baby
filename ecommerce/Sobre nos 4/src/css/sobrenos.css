@@ -1,0 +1,41 @@
+.img-crianca {
+    width: 30rem;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    margin-left: 15rem;
+}
+
+.sobre {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.infos {
+    margin: 30px;
+}
+
+.oque-somos {
+    width: 40rem;
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+}
+
+.botao {
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50px;
+    transition: 0.2s ease-in-out;
+    color: rgb(255, 255, 255);
+    background-color: rgb(245, 66, 138);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.botao:hover {
+    background-color: rgb(66, 200, 245);
+}

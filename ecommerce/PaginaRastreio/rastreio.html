@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="stylesheet" href="./src/css/navbar.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./src/img/logo.png" type="image/x-icon">
+    <title>&-Baby</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid corNavbar">
+        <img width="100px" height="100px" src="./src/img/logo.png" alt="logo do site">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active passarEmCima" aria-current="page" href="#">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active passarEmCima" aria-current="page" href="#">Rastrear Pedido</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active passarEmCima" aria-current="page" href="#">Sobre nós</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Procurar..." aria-label="Pesuisa">
+            <img width="40px" height="40px" style="padding: 5px" src="./src/img/perfil.png" alt="Perfil">
+            <img width="40px" height="40px" style="padding: 5px" src="./src/img/pngwing.com (3).png" alt="carrinho de mercado">
+          </form>
+        </div>
+      </div>
+    </nav>
+    <main class="main">
+      <h1>Rastreie seu Pedido</h1>
+      <br>
+      <h2>Entre com o seu E-mail | Código de Rastreio</h2>
+      <br><br>
+      <div class="campo1">
+        <input class="input" type="email" placeholder="E-mail/Telefone" />
+        <input class="input" type="text" placeholder="Número do Pedido" />
+        <button class="botao botao1">LOCALIZAR</button>
+      </div>
+      <div class="campo2">
+        <input class="input" type="text" placeholder="Número de Rastreio" />
+        <button class="botao">LOCALIZAR</button>
+      </div>
+    </main>
+  </body>
+</html>

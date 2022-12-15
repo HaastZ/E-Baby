@@ -1,0 +1,47 @@
+@media screen and (min-width:414px) and (max-width:896px){
+    .campo2 {
+        margin-top: 700px;
+        margin-right: 300px;
+    }
+
+    .campo1 {
+        margin-left: 300px;
+    }
+
+    .main {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (min-width:375px) and (max-width:812px){
+    .campo2 {
+        margin-top: 700px;
+        margin-right: 300px;
+    }
+
+    .campo1 {
+        margin-left: 300px;
+    }
+
+
+    .main {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (min-width:360px) and (max-width:400px){
+.campo2 {
+    margin-top: 700px;
+    margin-right: 300px;
+}
+
+.campo1 {
+    margin-left: 300px;
+}
+
+.main {
+    font-size: 10px;
+}
+}

@@ -1,0 +1,820 @@
+*{
+    margin: 0;
+}
+#rodapeInicial{
+    background-color: black;
+    padding-bottom: 1%;
+}
+#centralizar{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 1%;
+
+}
+.navbar.bs-navbar {
+    padding-top: 0.5rem;
+}
+
+.corNavbar {
+    background-color: rgb(66, 200, 245);
+    height: 50px;
+    
+}
+
+.navbar.navbar-expand-lg.bg-light {
+    padding: 0;
+}
+
+.nav-link.active.passarEmCima:hover {
+    color: rgb(255, 255, 255)
+}
+.itensCarrosel{
+    width: 10000px;
+}
+#btBemvindo{
+    border: 2px solid rgb(246,103,153) ;
+    background-color: rgb(246,103,153);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 9px;
+    margin-bottom: 100px;
+    position: relative;
+    bottom: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+#tituloInicio{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    line-height: 70px;
+}
+#txtInicio{
+    position: relative;
+    top: 8px;
+}
+#comprarAgora{
+    text-decoration: none;
+    border: 2px solid rgb(74,205,213);
+    border-radius: 24px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: white;
+    background-color: rgb(74,205,213);
+    position: relative;
+    top: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+#comprarAgora:hover{
+background-color: rgb(246,103,153);
+border: 2px solid rgb(246,103,153);
+transition-duration: 0.5s;
+}
+#linhaPont{
+    border: none;
+    border-top: 4px dotted rgb(24, 214, 224);
+    border-radius: 0px;
+    color: #fff;
+    background-color: #fff;
+    width: 101px;
+}
+#btnDestaque{
+    border: 2px solid white;
+    margin: 15px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 40px;
+    position: relative;
+    top: 150px;
+    background-color: white;
+    text-decoration: none;
+    color: rgb(119,119,119);
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    height: 600;
+}
+#btnNovidade{
+    border: 2px solid white;
+    margin: 15px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 40px;
+    position: relative;
+    top: 150px;
+    background-color: white;
+    text-decoration: none;
+    color: rgb(119,119,119);
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    height: 600;
+}
+#btnTdsProdutos{
+    border: 2px solid white;
+    margin: 15px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 40px;
+    position: relative;
+    top: 150px;
+    background-color: white;
+    text-decoration: none;
+    color: rgb(119,119,119);
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    height: 600;
+}
+#depoimentos{
+    background-image: url("img/fundo\ depoimento.png");
+    height: 600px;
+}
+#navMeio{
+    border: 5px solid white;
+    border-radius: 100px;
+    width: 85%;
+    margin: auto;
+    position: relative;
+    bottom: 226px;
+    background-color: white;
+    z-index: 1;
+    text-align: center;
+    height: 147px;
+}
+.sessaoMeio{
+    height: 15%;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+#txtNoneMeio{
+    text-decoration: none;
+}
+#txtDivMeio{
+    position: relative;
+    color: #232323;
+    bottom: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+#imgDivMeio{
+    position: relative;
+    top: 5px;
+}
+#carroselP{
+    position: relative;
+    bottom: 450px;
+    left: 800px;
+    
+}
+#carroselP:hover{
+    transition-timing-function: ease;
+    transition-duration: 10s;
+    transition-delay: 2s;
+}
+#carroselS{
+    position: relative;
+    bottom: 450px;
+    left: 150px;
+}
+
+#divProdutos{
+    background-color: rgb(246,247,248);
+    position: relative;
+    bottom: 288px;
+    height: 1200px;
+
+}
+#imgDivProduto{
+    width: 200px;
+    height: 200px;
+}
+#amamosTendencia{
+    position: relative;
+    text-align: center;
+    top: 120px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    line-height: 40px;
+    font-size: 40px;
+}
+#nomeProduto{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    line-height: 18px;
+    font-size: 16px;
+    color: #222222;
+}
+#produtos{
+    position: relative;
+    top: 175px;
+}
+.btn{
+    position: relative;
+    left: 32%;
+}
+#produtoIndividual{
+    background-color: #fff;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 12px;
+    text-align: center;
+}
+#btnVT{
+    text-decoration: none;
+    margin: 1px solid rgb(74,205,213);
+    background-color: rgb(74,205,213);
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 30px;
+    position: relative;
+    top: 45px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    font-size: 16px;
+    
+}
+#btnVT:hover{
+    background-color: rgb(246,103,153);
+    transition-duration: 0.5s;
+}
+#centralizarBtn{
+    text-align: center;
+}
+#tituloServ{
+    text-align: center;
+    font-size: 40px;
+}
+#terceiraSessao{
+    position: relative;
+    bottom: 200px;
+}
+#posicionarServ{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#serv{
+    border: 2px solid rgb(246,103,153);
+    border-radius: 80px;
+    display: block;
+    position: relative;
+    padding: 6px;
+    width: 55px;
+
+}
+#servEnvGra{
+    border: 2px solid rgb(246,103,153);
+    border-radius: 80px;
+    display: block;
+    position: relative;
+    padding: 6px;
+    width: 55px;
+    left: 30%;  
+}
+#servTrocGara{
+    border: 2px solid rgb(246,103,153);
+    border-radius: 80px;
+    display: block;
+    position: relative;
+    padding: 6px;
+    width: 55px;
+    left: 34%;
+}
+#servCartPre{
+    border: 2px solid rgb(246,103,153);
+    border-radius: 80px;
+    display: block;
+    position: relative;
+    padding: 6px;
+    width: 55px;
+    left: 33%;
+}
+#servMelQual{
+    border: 2px solid rgb(246,103,153);
+    border-radius: 80px;
+    display: block;
+    position: relative;
+    padding: 6px;
+    width: 55px;
+    left: 33%;
+}
+#tamanhoServ{
+    width: 20%;
+    margin-left: 50px;
+}
+#textoDescBtn{
+    text-decoration: none;
+    position: relative;
+    top: 2px;
+    color: black;
+    font-size: 16px;
+}
+#textoBtnServ{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    font-size: 18px;
+}
+#textoBtnServ:hover{
+    color: rgb(246,103,153);
+    font-size: 20.05px;
+    transition-duration: 0.5s;
+}
+#linhaVertical{
+    position: relative;
+    top: 20px;
+    height: 90px;
+    border-right: 1px solid #eee;
+    width: 1px;
+}
+#teste{
+    position: relative;
+}
+#email{
+    background-image: url("//cdn.shopify.com/s/files/1/2713/8608/files/Untitled-1_bd74bb67-5891-443f-99d0-f80a30f8639e.png?v=1613729955");
+    background-size: 100%;
+    height: 435px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#campoEmail{
+    border: 1px solid white;
+    border-radius: 50px;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+#ee{
+    margin-top: 100px;
+}
+#emailCentro{
+    text-align: center;
+    position: relative;
+    
+}
+#imgEmail{
+    position: relative;
+    bottom: 20px;
+}
+#txtEmail{
+    position: relative;
+    bottom: 20px;
+    size: 40px;
+}
+#inscrevase{
+    text-decoration: none;
+    border: 2px solid rgb(74,205,213);
+    border-radius: 24px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(74,205,213);
+    position: relative;
+    top: 20px;
+}
+#inscrevase:hover{
+    background-color: rgb(246,103,153);
+    border: 2px solid rgb(246,103,153);
+    transition-duration: 0.5s;
+}
+#sessaoProduto{
+text-decoration: none;
+color: rgb(33,37,41);
+}
+#corRodape{
+    color: black;
+}
+#popupLogin{
+    position: relative;
+    bottom: 2885px;
+    left: 530px;
+    margin: auto;
+    width: 347px;
+    height: 317px;
+    padding: 15px;
+    background: white;
+    display: none;
+    border: 2px solid rgb(74,205,213);
+    z-index: 1;
+}
+#campoEmaillogin{
+    border: 1px solid gray;
+    width: 305px;
+    height: 38px;
+    font-size: 14px;
+    border-radius: 50px;
+    padding-left: 14px;
+    margin-bottom: 15px;
+}
+
+#campoSenha{
+    border: 1px solid gray;
+    width: 305px;
+    height: 38px;
+    font-size: 14px;
+    border-radius: 50px;
+    padding-left: 14px;
+    margin-bottom: 65px;
+}
+
+#txtLogin{
+    font-weight: 400;
+    line-height: 31px;
+    color: #232323;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+#btnSingin{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 14px;
+    border: 1px solid rgb(74,205,213);
+    border-radius: 50px;
+    background-color: rgb(74,205,213);
+    color: white;
+    padding: 8px 124px;
+    text-decoration: none;
+    position: relative;
+    left: 2px;
+    bottom: 30px;
+}
+#btnSingin:hover{
+    border: 1px solid rgb(246,103,153);
+    background-color: rgb(246,103,153);
+    transition-duration: 0.5s;
+}
+#btnCriarConta{
+    text-decoration: none;
+    color: #232323;
+    position: relative;
+    top: 0px;
+    left: 114.5px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 14px;
+    position: relative;
+    border: 0px;
+    background-color: #fff;
+}
+#btnEsqueciSenha{
+    text-decoration: none;
+    color: #232323;
+    position: relative;
+    left: 150px;
+    bottom: 60px;
+    font-size: 14px;
+}
+#popupEsqSenha{
+    position: relative;
+    bottom: 2790px;
+    left: 530px;
+    margin: auto;
+    width: 347px;
+    height: 317px;
+    padding: 15px;
+    background: white;
+    display: none;
+    z-index: 1;
+}
+#txtRedefinir{
+    font-weight: 400;
+    line-height: 31px;
+    color: #232323;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 5px;
+    position: relative;
+    top: 4px;
+    bottom: 38px;
+
+}
+#txtEnviaremos{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+}
+#btnEnviarRedSenha{
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 14px;
+    border: 1px solid rgb(74,205,213);
+    border-radius: 50px;
+    background-color: rgb(74,205,213);
+    color: white;
+    padding: 8px 126.7px;
+    text-decoration: none;
+    position: relative;
+    top:10px;
+}
+#btnEnviarRedSenha:hover{
+    border: 1px solid rgb(246,103,153);
+    background-color: rgb(246,103,153);
+    transition-duration: 0.5s;
+}
+#btnCancelar{
+    text-decoration: none;
+    color: #232323;
+    position: relative;
+    top: 20px;
+    align-self: center;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 14px;
+    position: relative;
+    top: 30px;
+}
+#campoEmailRedfSenha{
+    border: 1px solid gray;
+    width: 305px;
+    height: 38px;
+    font-size: 14px;
+    border-radius: 50px;
+    padding-left: 14px;
+    margin-bottom: 15px;
+    position: relative;
+    top: 6px;
+}
+#popupCriarConta{
+    position: relative;
+    bottom: 2885px;
+    left: 530px;
+    margin: auto;
+    width: 347px;
+    height: 502px;
+    padding: 15px;
+    background: white;
+    display: none;
+    border: 2px solid rgb(74,205,213);
+    z-index: 1;
+}
+#campoEmaillogin2{
+    border: 1px solid gray;
+    width: 305px;
+    height: 38px;
+    font-size: 14px;
+    border-radius: 50px;
+    padding-left: 14px;
+    margin-bottom: 15px;
+
+}
+#campotelefone{
+    border: 1px solid gray;
+    width: 305px;
+    height: 38px;
+    font-size: 14px;
+    border-radius: 50px;
+    padding-left: 14px;
+    margin-bottom: 15px;
+    margin-top: 1px;
+}
+#campocpf{
+    border: 1px solid gray;
+    width: 305px;
+    height: 38px;
+    font-size: 14px;
+    border-radius: 50px;
+    padding-left: 14px;
+    margin-bottom: 15px;
+}
+#campoSenhaCriar2{
+    border: 1px solid gray;
+    width: 305px;
+    height: 38px;
+    font-size: 14px;
+    border-radius: 50px;
+    padding-left: 14px;
+}
+#txtCriarConta{
+    font-weight: 400;
+    line-height: 31px;
+    color: #232323;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+#btnJaConta{
+    text-decoration: none;
+    color: #232323;
+    position: relative;
+    align-self: center;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 14px;
+    position: relative;
+    top: 44px;
+    
+}
+#btnCriar{
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 14px;
+    border: 1px solid rgb(74,205,213);
+    border-radius: 50px;
+    background-color: rgb(74,205,213);
+    color: white;
+    padding: 8px 126.7px;
+    text-decoration: none;
+    position: relative;
+    top: 24px;
+}
+#btnCriar:hover{
+    border: 1px solid rgb(246,103,153);
+    background-color: rgb(246,103,153);
+    transition-duration: 0.5s;
+}
+
+#campoSenhaCriar{
+    border: 1px solid gray;
+    width: 305px;
+    height: 38px;
+    font-size: 14px;
+    border-radius: 50px;
+    padding-left: 14px;
+}
+#botaoProximo{
+    height: 60px;
+}
+.circuloProximo{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(74,205,213);
+    border-radius: 40px;
+    position: relative;
+    padding-top: 14.5px;
+}
+.circuloProximo:hover{
+    background-color: rgb(246,103,153);
+    transition-duration: 0.5s;
+}
+#diminuirTamanho{
+    width: -400px;
+    height: -200px;
+}
+button.carousel-control-prev{
+    max-height: 50px;
+    max-width: 60px;
+    position: relative;
+    top: -490px;
+    left: 30px;
+}
+button.carousel-control-next{
+    max-height: 50px;
+    max-width: 60px;
+    position: relative;
+    top: -540px;
+    left: 1260px;
+}
+#tamanhoPerfil{
+    font-size: 30px;
+    color: #222222;
+}
+#popupPerfil{
+    position: relative;
+    bottom: 2880px;
+    left: 530px;
+    margin: auto;
+    width: 347px;
+    height: 317px;
+    padding: 15px;
+    background: white;
+    border: 2px solid rgb(74,205,213);
+    display: none;
+    z-index: 1;
+}
+#meusPedidos{
+    color: red;
+}
+#perfilUsuario{
+    font-size: 50px;
+    align-items: center;
+}
+#novidadeEmail{
+    font-size: 14px;
+}
+.footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  .produtos-encontrados {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 18rem;
+}
+
+.agrupamento-produtos {
+    display: flex;
+}
+
+.pesquisar {
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 50px;
+    transition: 0.2s ease-in-out;
+    color: rgb(255, 255, 255);
+    background-color: rgb(245, 66, 138);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.botao:hover {
+    background-color: rgb(66, 200, 245);
+}
+#btnPesquisa{
+    text-decoration: none;
+    color: #222222;
+    font-size: 24px;
+    margin: 10px;
+}
