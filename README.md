@@ -1,9 +1,8 @@
-# --Baby
-e-commerce para bebês
+# &-Baby
 
-Projeto E-commerce desenvolvido durante o 2° Semestre da faculdade
+* e-commerce para produtos de bebês
 
-Um E-commerce para produtos de bebês
+* Projeto E-commerce desenvolvido durante o 2° Semestre da faculdade de ADS
 
 # Tecnologias Utilizadas
 * PHP
