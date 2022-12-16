@@ -1,4 +1,4 @@
-# &-Baby
+![logo](https://user-images.githubusercontent.com/102103337/208139394-f4459647-296a-484d-a9cc-822ab9a6870b.png)
 
 * E-commerce para produtos de bebês
 
