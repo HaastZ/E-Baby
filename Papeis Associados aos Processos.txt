@@ -1,0 +1,16 @@
+1- Processo de Compra
+   
+   1. Entrar ao site
+     1-1. Efetuar cadastro ou login
+   2. Pesquisa de produto
+   3. Seleção do produto pesquisado
+   4. Clicar no botão de compra do produto
+   5. Página do Mercado Pago aberta
+   6. Preencher dados para selecionar forma de pagamento
+   7. Escolher entre cartão ou boleto
+     7-1. Cartão: Será verificado pelo Mercado Pago
+     7-2. Boleto: Será gerado boleto pelo Mercado Pago
+   8. Receber mensagem via e-mail, código de confirmação da compra
+   9. Verificar produto tambem o código e confirmar compra
+   10. Enviar código de confirmação de compra
+   11. Receber Produto
